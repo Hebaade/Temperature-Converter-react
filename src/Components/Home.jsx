@@ -47,7 +47,7 @@ export default function Home() {
                     <h2 className="res"> {res.toFixed(1)} °C</h2>
                 </div>:""
             }
-            {main ? <button className="back" onClick={() => { setMain(0); setF(0); setC(0)}}>Back</button>:""}
+            {main ? <button className="back" onClick={() => { setMain(0); setF(0); setC(0); setRes(0)}}>Back</button>:""}
       </>
     );
 }
